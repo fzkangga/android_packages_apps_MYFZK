@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+
+        android:id="@+id/fzk_statusbar_navigation"
+        android:icon="@drawable/fzk_statusbar_icon"
+        android:title="@string/fzk_statusbar_title"
+        app:showAsAction="ifRoom|withText"/>
+
+    <item
+        android:id="@+id/fzk_panels_navigation"
+        android:icon="@drawable/fzk_panel_icon"
+        android:title="@string/fzk_notification_panel_title"
+        app:showAsAction="ifRoom|withText"/>
+
+    <item
+        android:id="@+id/fzk_buttons_navigation"
+        android:icon="@drawable/fzk_buttons_icon"
+        android:title="@string/fzk_buttons_title"
+        app:showAsAction="ifRoom|withText"/>
+
+    <item
+        android:id="@+id/fzk_ui_navigation"
+        android:icon="@drawable/fzk_ui_settings_icon"
+        android:title="@string/fzk_ui_title"
+        app:showAsAction="ifRoom|withText"/>
+
+
+    <item
+        android:id="@+id/fzk_misc_navigation"
+        android:icon="@drawable/fzk_misc_icon"
+        android:title="@string/fzk_misc_title"
+        app:showAsAction="ifRoom|withText"/>
+
+</menu>

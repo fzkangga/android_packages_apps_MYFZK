@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Resurrection Remix
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<PreferenceScreen
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/fzk_title">
+
+     <PreferenceScreen
+            android:id="@+id/status_bar_settings"
+            android:title="@string/fzk_statusbar_title"
+            android:fragment="my.fzk.pager.fragment.StatusBarSettings"
+            android:icon="@drawable/fzk_statusbar_icon"
+            />
+
+    <PreferenceScreen
+            android:key="fzk_qs"
+            android:title="@string/fzk_qs_title"
+            android:fragment="my.fzk.pager.fragment.QSMainSettings"
+            android:icon="@drawable/fzk_quick_settings_icon"/>
+
+    <PreferenceScreen
+            android:id="@+id/fzk_recents"
+            android:title="@string/fzk_recents_title"
+            android:fragment="my.fzk.pager.fragment.RecentsSettings"
+            android:icon="@drawable/fzk_recents_icon" />
+
+    <PreferenceScreen
+            android:key="fzk_lockscreen"
+            android:title="@string/fzk_lockscreen_title"
+            android:fragment="my.fzk.pager.fragment.LockSettings"
+            android:icon="@drawable/fzk_lock_icon"/>
+
+    <PreferenceScreen
+            android:key="fzk_animation"
+            android:title="@string/fzk_animation_title"
+            android:fragment="my.fzk.pager.fragment.Animations"
+            android:icon="@drawable/fzk_animations_icon"/>
+
+    <PreferenceScreen
+            android:key="fzk_misc"
+            android:title="@string/fzk_misc_title"
+            android:fragment="my.fzk.pager.fragment.Misc"
+            android:icon="@drawable/fzk_misc_icon"/>
+
+
+    <PreferenceScreen
+            android:key="fzk_interface"
+            android:title="@string/fzk_ui_title"
+            android:fragment="my.fzk.pager.fragment.Interface"
+            android:icon="@drawable/fzk_misc_interface_icon"/>
+
+    <PreferenceScreen
+            android:key="fzk_nav"
+            android:title="@string/fzk_nav_title"
+            android:fragment="my.fzk.pager.fragment.Navigation"
+            android:icon="@drawable/fzk_navbar_icon"/>
+
+    <PreferenceScreen
+            android:key="fzk_buttons"
+            android:title="@string/fzk_buttons_title"
+            android:fragment="my.fzk.pager.fragment.Buttons"
+            android:icon="@drawable/fzk_buttons_icon"/>
+
+     <PreferenceScreen
+            android:key="fzk_about"
+            android:title="@string/fzk_about"
+	   	    android:fragment="my.fzk.pager.fragment.About"
+	   		android:icon="@drawable/fzk_about_icon"/>
+
+</PreferenceScreen>

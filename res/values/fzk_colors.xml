@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="theme_accent">@*android:color/accent_device_default_light</color>
+    <color name="fzk_fab_bg">@color/theme_accent</color>
+    <color name="fzk_fab_button_icon_color">#FFFFFF</color>
+
+    <color name="fzk_pager_accent">@color/theme_accent</color>
+    <color name="fzk_config_tab_text_color">@*android:color/legacy_light_control_normal</color>
+    <color name="NavBottomBarBackgroundColor">@*android:color/legacy_long_pressed_highlight</color>
+
+    <color name="fzk_homepage_bg">#f05361</color>
+    <color name="fzk_config_icon_tint">?android:attr/colorControlNormal</color><!-- All configurations icon colors -->
+    <color name="fab_button_icon_color">#FFFFFF</color>
+
+</resources>
